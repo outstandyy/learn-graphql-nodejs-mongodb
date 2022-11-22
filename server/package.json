@@ -1,0 +1,28 @@
+{
+  "name": "learn-graphql-nodejs-mongodb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/outstandyy/learn-graphql-nodejs-mongodb.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/outstandyy/learn-graphql-nodejs-mongodb/issues"
+  },
+  "homepage": "https://github.com/outstandyy/learn-graphql-nodejs-mongodb#readme",
+  "dependencies": {
+    "@apollo/server": "^4.1.1",
+    "dotenv": "^16.0.3",
+    "graphql": "^16.6.0",
+    "mongodb": "^4.12.0"
+  }
+}
